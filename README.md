@@ -14,5 +14,5 @@ Singularity shines for scientific software running in an HPC environent.  We wil
 
 Want to learn more:
 
-- [Miscellaneous](MISCELLANEOUS.md)
+- [Miscellaneous](99_MISCELLANEOUS.md)
 - [Join the community](https://www.sylabs.io/singularity/join-the-community/)
