@@ -26,14 +26,13 @@ It should look something like this:
 
 ```
 BootStrap: library
-From: ubuntu:latest
+From: ubuntu:18.04
 
 %runscript
     echo "This is what happens when you run the container..."
 
 %post
     echo "Hello from inside the container"
-    sed -i 's/$/ universe/' /etc/apt/sources.list
     apt-get -y install vim
 
 ```
