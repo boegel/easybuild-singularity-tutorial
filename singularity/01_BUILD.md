@@ -190,7 +190,7 @@ Here is what our updated definition file should look like.
 
 ```
 BootStrap: library
-From: ubuntu:latest
+From: ubuntu:18.04
 
 %post
     apt-get -y update
@@ -217,7 +217,7 @@ Singularity stores a lot of [useful metadata](https://www.sylabs.io/guides/3.0/u
 ```
 $ singularity inspect --deffile lolcow.sif
 BootStrap: library
-From: ubuntu:latest
+From: ubuntu:18.04
 
 %post
     apt-get -y update
