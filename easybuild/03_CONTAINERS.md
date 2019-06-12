@@ -342,7 +342,7 @@ After a while, this should produce ``HOME/containers/TensorFlow-1.13.1-foss-2019
 since this is required for installing the ``Bazel`` installation tool that is a build dependency for TensorFlow:**
 
 ```
-cp jdk-8u212-linux-x64.tar.gz /tmp/easybuild/sources/
+cp $HOME/sources/j/Java/jdk-8u212-linux-x64.tar.gz /tmp/easybuild/sources/
 ```
 
 ### Known limitations
